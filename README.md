@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-![Peter's github stats](https://github-readme-stats.vercel.app/api?username=pmikus&show_icons=true&count_private=true&theme=synthwave&hide=stars)
+![Peter's github stats](https://github-readme-stats.vercel.app/api?username=pmikus&show_icons=true&count_private=true&theme=github_dark&hide=stars)
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=pmikus&theme=synthwave&hide_border=false&mode=weekly)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=pmikus&theme=github-dark-blue&hide_border=false&mode=weekly)
 
 <!--
 Here are some ideas to get you started:

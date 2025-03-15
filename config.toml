@@ -1,5 +1,5 @@
 
-baseURL = "https://pmikus.github.io/"
+baseURL = "https://pmikus.github.io/pmikus/"
 googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "section"]
@@ -12,6 +12,7 @@ path = "github.com/kaiiiz/hugo-theme-monochrome"
   # set to change date format
   dateFormat = "2.1.2006"
   # backgroundPath = "images/bg.jpg"
+  footer = "Copyright © 2025 by pmikus" # default: None
 
 [languages]
 [languages.sk]

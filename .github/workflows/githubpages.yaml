@@ -52,6 +52,18 @@ jobs:
       - name: "Install Node.js dependencies"
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
+      - name: "Cache images"
+        id: cache-images
+        uses: actions/cache@v4
+        with:
+          path: ./content
+          key: images-${{ hashFiles('content/**') }}
+
+      - name: Download example images
+        if: steps.cache-images.outputs.cache-hit != 'true'
+        working-directory: ./
+        run: ./pull-images.sh
+
       - name: "Build with Hugo"
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache

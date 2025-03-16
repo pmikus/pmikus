@@ -5,12 +5,12 @@ title: Travel
 categories: ["travel"]
 weight: 3
 params:
-  featured_image: azzedine-rouichi-ZS_XuDZmxpM-unsplash.jpg
+  featured_image: images-castle1.jpg
   theme: dark
   sort_order: desc
   sort_by: Name # Exif.Date
 resources:
-  - src: azzedine-rouichi-ZS_XuDZmxpM-unsplash.jpg
+  - src: images-castle1.jpg
     params:
       cover: true
 ---

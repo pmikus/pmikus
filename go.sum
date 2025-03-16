@@ -1,2 +1,4 @@
-github.com/kaiiiz/hugo-theme-monochrome v4.0.0+incompatible h1:jtmnwW3fz36d3I8Dq4lOEJ+pmMtSjqF0b5xw17ZNWEw=
-github.com/kaiiiz/hugo-theme-monochrome v4.0.0+incompatible/go.mod h1:la906j3s0e3SFjWmXPM84sX8b/WU1wejqR6XaGmBO2I=
+github.com/nicokaiser/hugo-theme-gallery/v4 v4.0.0 h1:qPKdy/WkysbUY0wZCE1Ls06jlr/dudnOaeAhEf9JGww=
+github.com/nicokaiser/hugo-theme-gallery/v4 v4.0.0/go.mod h1:oVtY67dE9NbaJw9jM4G5moHAcgT/UXxdcIQhs52KPoU=
+github.com/nicokaiser/hugo-theme-gallery/v4 v4.7.1 h1:EGGu9q8MtBCxVDKUoaX3tK+kDiC9228Fiqmo/PndD8U=
+github.com/nicokaiser/hugo-theme-gallery/v4 v4.7.1/go.mod h1:oVtY67dE9NbaJw9jM4G5moHAcgT/UXxdcIQhs52KPoU=

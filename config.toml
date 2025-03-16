@@ -4,15 +4,51 @@ googleanalytics = ""
 disqusShortname = ""
 disableKinds = ["taxonomy", "section"]
 
+[outputs]
+  home = ["HTML"]
+  page = ["HTML"]
+  section = ["HTML"]
+
+[imaging]
+  quality = 100
+  resampleFilter = "CatmullRom"
+  [imaging.exif]
+    disableDate = false
+    disableLatLong = true
+
 [module]
-[[module.imports]]
-path = "github.com/kaiiiz/hugo-theme-monochrome"
+  [module.hugoVersion]
+    min = "0.121.2"
+  [[module.imports]]
+    path = "github.com/nicokaiser/hugo-theme-gallery/v4"
+
+[menu]
+  [[menu.footer]]
+    name = "GitHub"
+    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    weight = 3
 
 [params]
-  # set to change date format
-  dateFormat = "2.1.2006"
-  # backgroundPath = "images/bg.jpg"
-  footer = "Copyright © 2025 by pmikus" # default: None
+  defaultTheme = "dark"
+  description = "Example site for hugo-theme-gallery"
+  title = "My Gallery"
+  [params.author]
+    email = "user@example.com"
+    name = "Your Name"
+  [params.socialIcons]
+    facebook = "https://www.facebook.com/"
+    instagram = "https://www.instagram.com/"
+    github = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    youtube = "https://www.youtube.com/"
+    email = "mailto:user@example.com"
+    #website = "https://example.com"
+    #mastodon = "https://example.com"
+    #pixelfed = "https://example.com"
+    #mixcloud = "https://mixcloud.com"
+  [params.gallery]
+    #boxSpacing = 10
+    #targetRowHeight = 288
+    #targetRowHeightTolerance = 0.25
 
 [languages]
 [languages.sk]

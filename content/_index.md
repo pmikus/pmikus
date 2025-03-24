@@ -1,9 +1,9 @@
 ---
-#description: An example site for hugo-theme-gallery. Images from Unsplash.
+description:
 #lastmod: 2023-07-05
 title: Hugo Gallery
 resources:
-  - src: castle-by-500em
+  - src: castle-by-500em.jpeg
     params:
       cover: true # cover of the home page is used for OpenGraph cards, etc.
 menus:

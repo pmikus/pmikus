@@ -1,7 +1,7 @@
 ---
 description:
 #lastmod: 2023-07-05
-title: Hugo Gallery
+title: pmks
 resources:
   - src: castle-by-500em.jpeg
     params:

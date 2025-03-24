@@ -2,7 +2,15 @@
 baseURL = "https://pmikus.github.io/pmikus/"
 googleanalytics = ""
 disqusShortname = ""
-disableKinds = ["taxonomy", "section"]
+
+copyright = "© Peter Mikus"
+defaultContentLanguage = "en"
+disableKinds = ["taxonomy"]
+enableRobotsTXT = true
+languageCode = "en"
+timeZone = "Europe/Berlin"
+timeout = "120s"
+title = "Gallery"
 
 [outputs]
   home = ["HTML"]
@@ -39,17 +47,24 @@ disableKinds = ["taxonomy", "section"]
     500px = "https://www.instagram.com/"
     github = "https://github.com/pmikus/"
     email = "mailto:peter.mikus"
+    #facebook = "https://www.facebook.com/"
+    #instagram = "https://www.instagram.com/"
+    #mastodon = "https://example.com"
+    #mixcloud = "https://mixcloud.com"
+    #pixelfed = "https://example.com"
+    #website = "https://example.com"
+    #youtube = "https://www.youtube.com/"
   [params.gallery]
     boxSpacing = 10
     targetRowHeight = 288
     targetRowHeightTolerance = 0.25
 
 [languages]
-[languages.sk]
-  languageName = "Slovak"
-  languageCode = "sk-sk"
-  title = "pmks"
-[languages.en]
-  languageName = "English"
-  languageCode = "en-us"
-  title = "pmks"
+  [languages.sk]
+    languageName = "Slovak"
+    languageCode = "sk-sk"
+    title = "pmks"
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    title = "pmks"

@@ -6,7 +6,7 @@ categories: ["travel"]
 weight: 3
 params:
   featured_image: castle-by-500em.jpeg
-  theme: dark
+  theme: light
   sort_order: desc
   sort_by: Name # Exif.Date
 resources:

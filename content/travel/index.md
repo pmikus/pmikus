@@ -8,7 +8,7 @@ params:
   featured_image: castle-by-500em.jpeg
   theme: dark
   sort_order: desc
-  sort_by: Exif.Date
+  sort_by: Name # Exif.Date
 resources:
   - src: castle-by-500em.jpeg
     params:

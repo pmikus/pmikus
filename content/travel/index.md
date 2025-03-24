@@ -1,7 +1,7 @@
 ---
-#description: Currated selection of travel photography.
+description: Currated selection of travel photography.
 menus: "main"
-title: Travel
+title: travel
 categories: ["travel"]
 weight: 3
 params:

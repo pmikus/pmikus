@@ -25,26 +25,24 @@ disableKinds = ["taxonomy", "section"]
 [menu]
   [[menu.footer]]
     name = "GitHub"
-    url = "https://github.com/nicokaiser/hugo-theme-gallery/"
+    url = "https://github.com/pmikus/"
     weight = 3
 
 [params]
-  defaultTheme = "dark"
-  description = "Example site for hugo-theme-gallery"
-  title = "My Gallery"
+  defaultTheme = "light"
+  description = "pmks gallery"
+  title = "pmks gallery"
   [params.author]
-    email = "user@example.com"
-    name = "Your Name"
+    email = "peter.mikus"
+    name = "Peter Mikus"
   [params.socialIcons]
-    facebook = "https://www.facebook.com/"
-    instagram = "https://www.instagram.com/"
+    500px = "https://www.instagram.com/"
     github = "https://github.com/pmikus/"
-    youtube = "https://www.youtube.com/"
-    email = "mailto:user@example.com"
+    email = "mailto:peter.mikus"
   [params.gallery]
-    #boxSpacing = 10
-    #targetRowHeight = 288
-    #targetRowHeightTolerance = 0.25
+    boxSpacing = 10
+    targetRowHeight = 288
+    targetRowHeightTolerance = 0.25
 
 [languages]
 [languages.sk]
